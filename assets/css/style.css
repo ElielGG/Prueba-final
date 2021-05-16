@@ -10,3 +10,38 @@ body {
      width: 100%;
      font-size: 30px;
  }
+
+ .imagen-card1 {
+    background-image: url(../img/card1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+ }
+
+ .imagen-card2 {
+    background-image: url(../img/card2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+ }
+
+ .imagen-card3 {
+    background-image: url(../img/card3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+ }
+
+ .imagen-card4 {
+    background-image: url(../img/card4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+ }
+
+
+
