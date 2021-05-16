@@ -3,4 +3,10 @@ body {
     border: 0;
     padding: 0;
     font-family: 'Cabin', sans-serif;
+    background-color: black;
+    color: white;
 }
+ .col-md-4 i {
+     width: 100%;
+     font-size: 30px;
+ }
