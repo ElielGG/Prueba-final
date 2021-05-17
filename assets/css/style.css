@@ -48,7 +48,10 @@ body {
  }
 
  .foot a i {
-
     color: white;
  }
 
+ #Layer_1 {
+     width: 2rem;
+     height: 2rem;
+ }
