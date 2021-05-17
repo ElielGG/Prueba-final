@@ -24,7 +24,7 @@
 
 <body>
     <!-- Inicio del nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info sticky-top">
         <div class="container">
           
             <a class="navbar-brand" href="#">Viajes Chile</a>
@@ -39,13 +39,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Quienes somos</a>
+                <a class="nav-link" href="#presentacion">Quienes somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">destacados</a>
+                <a class="nav-link" href="#destacados">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
             </div>
@@ -88,23 +88,23 @@
 	</section>
 
     <!-- Inicio sección presentación -->
-    <section class="pb-5">
+    <section id="presentacion" class="pb-5 d-sm-block d-none d-md">
         <div class="container">
             <h3 class="text-center my-5">¿Quienes somos?</h3>
             <hr class="bg-info pt-1">
             <div class="row mt-5">
 
-                <div class="col-md-4">
+                <div class="col-4 presentacion">
                     <i class="fas fa-plane bg-info text-center"></i>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt hic adipisci quibusdam animi pariatur numquam magni. Exercitationem, quod. Quasi incidunt nihil, veniam at aperiam asperiores odio deleniti exercitationem aliquid! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, at! Hic officia vero suscipit voluptate repudiandae labore, earum libero delectus tempora qui laudantium dolorum vel ducimus tenetur!elit. Commodi, at! Hic officia vero suscipit voluptate repudiandae labore, earum libero delectus tempora qui laudantium dolorum vel ducimus earum libero delectus tempora qui laudantium dolorum vel ducimus tenetur!elit. Commodi, at! Hic officia vero suscipit voluptate repudiandae labore, earum libero delectus tempora qui laudantium dolorum vel ducimus </p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-4 presentacion">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt hic adipisci quibusdam animi pariatur numquam magni. Exercitationem, quod. Quasi incidunt nihil, veniam at aperiam asperiores odio deleniti exercitationem aliquid! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, at! Hic officia vero suscipit voluptate repudiandae labore, earum libero delectus tempora qui laudantium dolorum vel ducimus tenetur!elit. Commodi, at! Hic officia vero suscipit voluptate repudiandae labore, earum libero delectus tempora qui laudantium dolorum vel ducimus earum libero delectus tempora qui laudantium dolorum vel ducimus tenetur!elit. Commodi, at! Hic officia vero suscipit voluptate repudiandae labore, earum libero delectus tempora qui laudantium dolorum vel ducimus </p>
                     <i class="fas fa-mountain bg-info text-center"></i>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-4 presentacion">
                     <i class="fas fa-route bg-info text-center"></i>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt hic adipisci quibusdam animi pariatur numquam magni. Exercitationem, quod. Quasi incidunt nihil, veniam at aperiam asperiores odio deleniti exercitationem aliquid! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, at! Hic officia vero suscipit voluptate repudiandae labore, earum libero delectus tempora qui laudantium dolorum vel ducimus tenetur!elit. Commodi, at! Hic officia vero suscipit voluptate repudiandae labore, earum libero delectus tempora qui laudantium dolorum vel ducimus earum libero delectus tempora qui laudantium dolorum vel ducimus tenetur!elit. Commodi, at! Hic officia vero suscipit voluptate repudiandae labore, earum libero delectus tempora qui laudantium dolorum vel ducimus </p>
                 </div>
@@ -114,7 +114,7 @@
     </section>
     
     <!-- Inicio sección destacados -->
-    <section class="py-5">
+    <section id="destacados" class="py-5">
         <div class="container">
             <h3 class="text-center my-5">Destacados</h3>
             <hr class="bg-info pt-1">
@@ -174,7 +174,7 @@
     </section>
 
     <!-- Inicio sección de contacto -->
-    <section>
+    <section id="contacto">
         <div class="container">
             <h3 class="text-center my-5">Contacto</h3>
             <hr class="bg-info pt-1">
@@ -193,15 +193,15 @@
                 </div>
 
 
-                <div class="col-4 pt-3 pb-1">
+                <div class="col-4 pt-3 pb-1 foot">
 
-                    <i class="fab fa-github-square px-1"></i>
+                    <a href="https://github.com/" target="_blank"><i class="fab fa-github-square px-1"></i></a> 
 
-                    <i class="fab fa-linkedin px-1"></i>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin px-1"></i></a>
 
-                    <i class="fab fa-twitter-square px-1"></i>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square px-1"></i></a>
 
-                    <i class="fab fa-facebook-square px-1"></i>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square px-1"></i></a> 
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ body {
     background-color: black;
     color: white;
 }
- .col-md-4 i {
+ .presentacion i {
      width: 100%;
      font-size: 30px;
  }
@@ -47,5 +47,8 @@ body {
     font-size: 25px;
  }
 
+ .foot a i {
 
+    color: white;
+ }
 
